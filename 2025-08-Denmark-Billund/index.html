@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billund Family Adventure 2025</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="hero">
+        <nav class="navbar">
+            <div class="nav-container">
+                <h1 class="nav-logo">Billund 2025</h1>
+                <button class="nav-toggle" id="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#hero" class="nav-link">Home</a></li>
+                    <li><a href="#itinerary" class="nav-link">Itinerary</a></li>
+                    <li><a href="#attractions" class="nav-link">Attractions</a></li>
+                    <li><a href="#dining" class="nav-link">Dining</a></li>
+                    <li><a href="#practical" class="nav-link">Practical</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <div class="hero-content" id="hero">
+            <div class="hero-text">
+                <h1 class="hero-title">Billund Family Adventure 2025</h1>
+                <p class="hero-subtitle">An epic LEGO-filled journey to Denmark</p>
+                <div class="trip-info">
+                    <div class="info-item">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span>August 22-26, 2025</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-users"></i>
+                        <span>Family with kids aged 11 & 8</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-bed"></i>
+                        <span>Lalandia Billund Resort</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-ticket-alt"></i>
+                        <span>2-Day LEGOLAND Tickets</span>
+                    </div>
+                </div>
+                <button class="btn btn--primary hero-cta" onclick="document.getElementById('itinerary').scrollIntoView({behavior: 'smooth'})">
+                    <i class="fas fa-map"></i> Explore Our Adventure
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Daily Itinerary Section -->
+    <section id="itinerary" class="section">
+        <div class="container">
+            <h2 class="section-title">5-Day Itinerary</h2>
+            <p class="section-subtitle">Your day-by-day guide to the ultimate Billund experience</p>
+            
+            <div class="itinerary-grid">
+                <div class="day-card" data-day="1">
+                    <div class="day-header">
+                        <div class="day-number">1</div>
+                        <div class="day-info">
+                            <h3>Thu, Aug 22</h3>
+                            <p>Arrival & Lalandia Settlement</p>
+                        </div>
+                        <button class="expand-btn" onclick="toggleDay(1)">
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                    </div>
+                    <div class="day-content" id="day-1">
+                        <div class="activity">
+                            <div class="activity-time">Arrival</div>
+                            <div class="activity-details">
+                                <h4>Check-in at Lalandia Billund</h4>
+                                <p>Pick up wristbands for Aquadome and Monky Tonky Playland access</p>
+                                <div class="activity-tip">
+                                    <i class="fas fa-lightbulb"></i>
+                                    Drop bags early and explore Plaza activities
+                                </div>
+                            </div>
+                        </div>
+                        <div class="activity">
+                            <div class="activity-time">Afternoon</div>
+                            <div class="activity-details">
+                                <h4>Lalandia Plaza Activities</h4>
+                                <p>Bowling, climbing wall, mini-golf, shuffleboard, Adventure Park</p>
+                                <div class="activity-tip">
+                                    <i class="fas fa-lightbulb"></i>
+                                    Perfect for 11 & 8-year-olds to burn energy after travel
+                                </div>
+                            </div>
+                        </div>
+                        <div class="activity">
+                            <div class="activity-time">Evening</div>
+                            <div class="activity-details">
+                                <h4>Aquadome Introduction</h4>
+                                <p>Wave pool, slides, outdoor heated pool</p>
+                                <div class="activity-tip">
+                                    <i class="fas fa-lightbulb"></i>
+                                    Check Monky Tonky meet-and-greets on daily calendar
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="day-card" data-day="2">
+                    <div class="day-header">
+                        <div class="day-number">2</div>
+                        <div class="day-info">
+                            <h3>Fri, Aug 23</h3>
+                            <p>LEGOLAND Day 1</p>
+                        </div>
+                        <button class="expand-btn" onclick="toggleDay(2)">
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                    </div>
+                    <div class="day-content" id="day-2">
+                        <div class="activity">
+                            <div class="activity-time">Rope Drop</div>
+                            <div class="activity-details">
+                                <h4>Priority Rides</h4>
+                                <p>The Dragon, X-treme Racers, Polar X-plorer, LEGO NINJAGO The Ride</p>
+                                <div class="activity-tip">
+                                    <i class="fas fa-lightbulb"></i>
+                                    Use official app for live wait times and height requirements
+                                </div>
+                            </div>
+                        </div>
+                        <div class="activity">
+                            <div class="activity-time">Morning</div>
+                            <div class="activity-details">
+                                <h4>Shows & Characters</h4>
+                                <p>Stunt shows, pirate shows, character meet-and-greets</p>
+                                <div class="activity-tip">
+                                    <i class="fas fa-lightbulb"></i>
+                                    Check app schedule; great for both age groups
+                                </div>
+                            </div>
+                        </div>
+                        <div class="activity">
+                            <div class="activity-time">Lunch</div>
+                            <div class="activity-details">
+                                <h4>Early Lunch in Park</h4>
+                                <p>Eat 11:15-11:45 to beat crowds</p>
+                                <div class="activity-tip">
+                                    <i class="fas fa-lightbulb"></i>
+                                    Multiple kid-friendly options throughout park
+                                </div>
+                            </div>
+                        </div>
+                        <div class="activity">
+                            <div class="activity-time">Afternoon</div>
+                            <div class="activity-details">
+                                <h4>Miniland & Family Rides</h4>
+                                <p>Explore Danish landmarks, Vikings River Splash</p>
+                                <div class="activity-tip">
+                                    <i class="fas fa-lightbulb"></i>
+                                    Optional Aquadome break if kids need downtime
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="day-card" data-day="3">
+                    <div class="day-header">
+                        <div class="day-number">3</div>
+                        <div class="day-info">
+                            <h3>Sat, Aug 24</h3>
+                            <p>LEGO House & Lalandia</p>
+                        </div>
+                        <button class="expand-btn" onclick="toggleDay(3)">
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                    </div>
+                    <div class="day-content" id="day-3">
+                        <div class="activity">
+                            <div class="activity-time">Morning</div>
+                            <div class="activity-details">
+                                <h4>LEGO House Creative Zones</h4>
+                                <p>Red Zone (creative builds), Blue Zone (vehicles), Green Zone (stop-motion)</p>
+                                <div class="activity-tip">
+                                    <i class="fas fa-lightbulb"></i>
+                                    Perfect for both 11 & 8-year-olds; roof terraces for energy release
+                                </div>
+                            </div>
+                        </div>
+                        <div class="activity">
+                            <div class="activity-time">Lunch</div>
+                            <div class="activity-details">
+                                <h4>Near LEGO House</h4>
+                                <p>Scandinavian casual dining or Mini Chef robot restaurant</p>
+                                <div class="activity-tip">
+                                    <i class="fas fa-lightbulb"></i>
+                                    Mini Chef offers timed seating and unique experience
+                                </div>
+                            </div>
+                        </div>
+                        <div class="activity">
+                            <div class="activity-time">Afternoon</div>
+                            <div class="activity-details">
+                                <h4>Lalandia Activities</h4>
+                                <p>Adventure Park, bowling, climbing wall for 11-year-old</p>
+                                <div class="activity-tip">
+                                    <i class="fas fa-lightbulb"></i>
+                                    Aquadome session to recharge after creative morning
+                                </div>
+                            </div>
+                        </div>
+                        <div class="activity">
+                            <div class="activity-time">Evening</div>
+                            <div class="activity-details">
+                                <h4>Monky Tonky Events</h4>
+                                <p>Mini-disco, crafts, family activities</p>
+                                <div class="activity-tip">
+                                    <i class="fas fa-lightbulb"></i>
+                                    Check 'What's On' calendar for weekend specials
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="day-card" data-day="4">
+                    <div class="day-header">
+                        <div class="day-number">4</div>
+                        <div class="day-info">
+                            <h3>Sun, Aug 25</h3>
+                            <p>LEGOLAND Day 2 or WOW PARK</p>
+                        </div>
+                        <button class="expand-btn" onclick="toggleDay(4)">
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                    </div>
+                    <div class="day-content" id="day-4">
+                        <div class="activity">
+                            <div class="activity-time">Option A</div>
+                            <div class="activity-details">
+                                <h4>LEGOLAND Second Day</h4>
+                                <p>Re-ride favorites, catch missed shows, LEGO Shop souvenirs</p>
+                                <div class="activity-tip">
+                                    <i class="fas fa-lightbulb"></i>
+                                    Shorter waits on Sunday; earn LEGO Insiders points
+                                </div>
+                            </div>
+                        </div>
+                        <div class="activity">
+                            <div class="activity-time">Option B</div>
+                            <div class="activity-details">
+                                <h4>WOW PARK Billund</h4>
+                                <p>Forest nets, bridges, giant slides, nature play</p>
+                                <div class="activity-tip">
+                                    <i class="fas fa-lightbulb"></i>
+                                    Perfect for active 11 & 8-year-olds; open 10:00-17:00
+                                </div>
+                            </div>
+                        </div>
+                        <div class="activity">
+                            <div class="activity-time">Either Option</div>
+                            <div class="activity-details">
+                                <h4>Relaxed Evening</h4>
+                                <p>Easy dinner at Lalandia, final Aquadome session</p>
+                                <div class="activity-tip">
+                                    <i class="fas fa-lightbulb"></i>
+                                    Wind down before departure day
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="day-card" data-day="5">
+                    <div class="day-header">
+                        <div class="day-number">5</div>
+                        <div class="day-info">
+                            <h3>Mon, Aug 26</h3>
+                            <p>Departure via LEGO House</p>
+                        </div>
+                        <button class="expand-btn" onclick="toggleDay(5)">
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                    </div>
+                    <div class="day-content" id="day-5">
+                        <div class="activity">
+                            <div class="activity-time">10:00</div>
+                            <div class="activity-details">
+                                <h4>Lalandia Checkout</h4>
+                                <p>Standard checkout or paid late departure until 13:00</p>
+                                <div class="activity-tip">
+                                    <i class="fas fa-lightbulb"></i>
+                                    Consider late departure for relaxed morning (book day before)
+                                </div>
+                            </div>
+                        </div>
+                        <div class="activity">
+                            <div class="activity-time">10:30-13:00</div>
+                            <div class="activity-details">
+                                <h4>LEGO House Final Visit</h4>
+                                <p>Focus on 1-2 zones, roof terraces, LEGO Store</p>
+                                <div class="activity-tip">
+                                    <i class="fas fa-lightbulb"></i>
+                                    Perfect pre-airport activity; only 3-5km to BLL
+                                </div>
+                            </div>
+                        </div>
+                        <div class="activity">
+                            <div class="activity-time">Airport Transfer</div>
+                            <div class="activity-details">
+                                <h4>LEGO House to Billund Airport</h4>
+                                <p>Taxi: 4-5 minutes, Bus Line 43: 8-13 minutes</p>
+                                <div class="activity-tip">
+                                    <i class="fas fa-lightbulb"></i>
+                                    Compact airport; allow normal buffer for Amsterdam connection
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Attractions Section -->
+    <section id="attractions" class="section">
+        <div class="container">
+            <h2 class="section-title">Must-Visit Attractions</h2>
+            <p class="section-subtitle">Explore the best of Billund's family-friendly destinations</p>
+            
+            <div class="attractions-grid">
+                <div class="attraction-card">
+                    <div class="attraction-image">
+                        <img src="https://pplx-res.cloudinary.com/image/upload/v1749494728/pplx_project_search_images/440ef039e4efbf98193fa13d1b03b2ff620a8883.jpg" alt="LEGOLAND Billund Map">
+                        <div class="attraction-tag">
+                            <i class="fas fa-star"></i> Must-Do
+                        </div>
+                    </div>
+                    <div class="attraction-content">
+                        <h3>LEGOLAND Billund</h3>
+                        <p>Original LEGOLAND with 45+ rides and attractions</p>
+                        <div class="attraction-highlights">
+                            <span class="highlight">The Dragon coaster</span>
+                            <span class="highlight">NINJAGO World</span>
+                            <span class="highlight">Miniland</span>
+                            <span class="highlight">Polar X-plorer</span>
+                        </div>
+                        <div class="attraction-age">
+                            <i class="fas fa-child"></i> Perfect for ages 8-11
+                        </div>
+                        <div class="attraction-tip">
+                            <i class="fas fa-mobile-alt"></i> Use official app for wait times and show schedules
+                        </div>
+                        <a href="https://www.legoland.dk/en/" target="_blank" class="btn btn--primary attraction-btn">
+                            <i class="fas fa-external-link-alt"></i> Visit Website
+                        </a>
+                    </div>
+                </div>
+
+                <div class="attraction-card">
+                    <div class="attraction-image">
+                        <img src="https://pplx-res.cloudinary.com/image/upload/v1754604067/pplx_project_search_images/b6f5ad73c68ff2259fdcb553710dbb4ee8e606af.jpg" alt="LEGO House Creative Zone">
+                        <div class="attraction-tag">
+                            <i class="fas fa-palette"></i> Creative
+                        </div>
+                    </div>
+                    <div class="attraction-content">
+                        <h3>LEGO House</h3>
+                        <p>Interactive LEGO experience and museum</p>
+                        <div class="attraction-highlights">
+                            <span class="highlight">Creative zones</span>
+                            <span class="highlight">Roof terraces</span>
+                            <span class="highlight">Mini Chef restaurant</span>
+                            <span class="highlight">History exhibits</span>
+                        </div>
+                        <div class="attraction-age">
+                            <i class="fas fa-child"></i> Excellent for creative 8-11 year olds
+                        </div>
+                        <div class="attraction-tip">
+                            <i class="fas fa-plane"></i> Great for departure day - close to airport
+                        </div>
+                        <a href="https://legohouse.com/en-gb/" target="_blank" class="btn btn--primary attraction-btn">
+                            <i class="fas fa-external-link-alt"></i> Visit Website
+                        </a>
+                    </div>
+                </div>
+
+                <div class="attraction-card">
+                    <div class="attraction-image">
+                        <img src="https://pplx-res.cloudinary.com/image/upload/v1754604067/pplx_project_search_images/631973ec7aac8b0ae000767cb813ef91afdc5a06.jpg" alt="WOW Park Adventure Slides">
+                        <div class="attraction-tag">
+                            <i class="fas fa-tree"></i> Adventure
+                        </div>
+                    </div>
+                    <div class="attraction-content">
+                        <h3>WOW PARK Billund</h3>
+                        <p>Outdoor forest adventure park</p>
+                        <div class="attraction-highlights">
+                            <span class="highlight">Tree-top bridges</span>
+                            <span class="highlight">Giant slides</span>
+                            <span class="highlight">Nature challenges</span>
+                            <span class="highlight">Underground caves</span>
+                        </div>
+                        <div class="attraction-age">
+                            <i class="fas fa-child"></i> Active adventure for ages 8-11
+                        </div>
+                        <div class="attraction-tip">
+                            <i class="fas fa-cloud-sun"></i> Weather dependent; open 10:00-17:00 in August
+                        </div>
+                        <a href="https://en.wowpark.dk/wow-park-billund" target="_blank" class="btn btn--primary attraction-btn">
+                            <i class="fas fa-external-link-alt"></i> Visit Website
+                        </a>
+                    </div>
+                </div>
+
+                <div class="attraction-card">
+                    <div class="attraction-image">
+                        <img src="https://pplx-res.cloudinary.com/image/upload/v1754604066/pplx_project_search_images/673c3b0939157673bd4dc9d5417c0628e36b9167.jpg" alt="Lalandia Aquadome">
+                        <div class="attraction-tag">
+                            <i class="fas fa-swimmer"></i> Water Fun
+                        </div>
+                    </div>
+                    <div class="attraction-content">
+                        <h3>Lalandia Aquadome</h3>
+                        <p>Scandinavia's largest waterpark</p>
+                        <div class="attraction-highlights">
+                            <span class="highlight">Turbo Drop slide</span>
+                            <span class="highlight">Wave pool</span>
+                            <span class="highlight">Outdoor heated pool</span>
+                            <span class="highlight">Kids Area</span>
+                        </div>
+                        <div class="attraction-age">
+                            <i class="fas fa-child"></i> All ages with special kids areas
+                        </div>
+                        <div class="attraction-tip">
+                            <i class="fas fa-home"></i> Included with accommodation; pack swimwear daily
+                        </div>
+                        <a href="https://www.lalandia.dk/en/billund" target="_blank" class="btn btn--primary attraction-btn">
+                            <i class="fas fa-external-link-alt"></i> Visit Website
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dining Section -->
+    <section id="dining" class="section">
+        <div class="container">
+            <h2 class="section-title">Danish Cuisine & Dining</h2>
+            <p class="section-subtitle">Discover authentic Danish flavors and family-friendly restaurants</p>
+            
+            <div class="dining-content">
+                <div class="specialties-section">
+                    <h3>Danish Specialties to Try</h3>
+                    <div class="specialties-grid">
+                        <div class="specialty-card">
+                            <div class="specialty-image">
+                                <img src="https://pplx-res.cloudinary.com/image/upload/v1754604066/pplx_project_search_images/bc16411576de28d771807d31e0004536ea880e54.jpg" alt="Frikadeller with potatoes">
+                            </div>
+                            <div class="specialty-content">
+                                <h4>Frikadeller</h4>
+                                <p>Danish meatballs (pork and beef mixture)</p>
+                                <div class="specialty-details">
+                                    <strong>Served with:</strong> Boiled potatoes, brown gravy, red cabbage
+                                </div>
+                                <div class="specialty-where">
+                                    <i class="fas fa-map-marker-alt"></i> Traditional restaurants, as smørrebrød topping
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="specialty-card">
+                            <div class="specialty-content">
+                                <h4>Smørrebrød</h4>
+                                <p>Traditional open-faced sandwiches on rye bread</p>
+                                <div class="specialty-details">
+                                    <strong>Popular toppings:</strong> Herring, Roast beef, Shrimp, Frikadeller
+                                </div>
+                                <div class="specialty-where">
+                                    <i class="fas fa-map-marker-alt"></i> Grocery stores, bakeries, restaurants
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="specialty-card">
+                            <div class="specialty-content">
+                                <h4>Danish Pastries</h4>
+                                <p>Flaky pastries and cakes</p>
+                                <div class="specialty-details">
+                                    <strong>Must visit:</strong> Billund Bageri (since 1929)
+                                </div>
+                                <div class="specialty-where">
+                                    <i class="fas fa-map-marker-alt"></i> Billund Bageri, local bakeries
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="restaurants-section">
+                    <h3>Recommended Family Restaurants</h3>
+                    <div class="restaurants-grid">
+                        <div class="restaurant-card">
+                            <div class="restaurant-header">
+                                <h4>Mini Chef (LEGO House)</h4>
+                                <div class="restaurant-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="restaurant-details">
+                                <div class="restaurant-info">
+                                    <span class="restaurant-cuisine">
+                                        <i class="fas fa-utensils"></i> European
+                                    </span>
+                                    <span class="restaurant-price">€€-€€€</span>
+                                </div>
+                                <p class="restaurant-special">
+                                    <i class="fas fa-robot"></i> LEGO robots serve food - unique experience
+                                </p>
+                                <div class="restaurant-family">
+                                    <i class="fas fa-heart"></i> Excellent for families
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="restaurant-card">
+                            <div class="restaurant-header">
+                                <h4>REFBORG Spiseri</h4>
+                                <div class="restaurant-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="restaurant-details">
+                                <div class="restaurant-info">
+                                    <span class="restaurant-cuisine">
+                                        <i class="fas fa-utensils"></i> Scandinavian
+                                    </span>
+                                    <span class="restaurant-price">€€-€€€</span>
+                                </div>
+                                <p class="restaurant-special">
+                                    <i class="fas fa-leaf"></i> Local ingredients, seasonal menu
+                                </p>
+                                <div class="restaurant-family">
+                                    <i class="fas fa-thumbs-up"></i> Good for families
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="restaurant-card">
+                            <div class="restaurant-header">
+                                <h4>Bellini Café & Ristorante</h4>
+                                <div class="restaurant-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="restaurant-details">
+                                <div class="restaurant-info">
+                                    <span class="restaurant-cuisine">
+                                        <i class="fas fa-utensils"></i> Pizza, Italian
+                                    </span>
+                                    <span class="restaurant-price">€€-€€€</span>
+                                </div>
+                                <p class="restaurant-special">
+                                    <i class="fas fa-pizza-slice"></i> Great after LEGOLAND days
+                                </p>
+                                <div class="restaurant-family">
+                                    <i class="fas fa-heart"></i> Excellent for families
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="restaurant-card">
+                            <div class="restaurant-header">
+                                <h4>Beach Club Food & Drinks</h4>
+                                <div class="restaurant-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="restaurant-details">
+                                <div class="restaurant-info">
+                                    <span class="restaurant-cuisine">
+                                        <i class="fas fa-utensils"></i> International
+                                    </span>
+                                    <span class="restaurant-price">€€</span>
+                                </div>
+                                <p class="restaurant-special">
+                                    <i class="fas fa-home"></i> Convenient location in Lalandia resort
+                                </p>
+                                <div class="restaurant-family">
+                                    <i class="fas fa-heart"></i> Excellent for families
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Practical Info Section -->
+    <section id="practical" class="section">
+        <div class="container">
+            <h2 class="section-title">Practical Information</h2>
+            <p class="section-subtitle">Everything you need for a smooth trip</p>
+            
+            <div class="practical-grid">
+                <div class="practical-card">
+                    <h3><i class="fas fa-suitcase"></i> Packing Checklist</h3>
+                    <div class="checklist">
+                        <div class="checklist-item">
+                            <input type="checkbox" id="item1">
+                            <label for="item1">Swimwear for daily Aquadome sessions</label>
+                        </div>
+                        <div class="checklist-item">
+                            <input type="checkbox" id="item2">
+                            <label for="item2">Comfortable walking shoes</label>
+                        </div>
+                        <div class="checklist-item">
+                            <input type="checkbox" id="item3">
+                            <label for="item3">Light rain jacket (Denmark weather)</label>
+                        </div>
+                        <div class="checklist-item">
+                            <input type="checkbox" id="item4">
+                            <label for="item4">Compact daypack for parks</label>
+                        </div>
+                        <div class="checklist-item">
+                            <input type="checkbox" id="item5">
+                            <label for="item5">Water bottles and snacks</label>
+                        </div>
+                        <div class="checklist-item">
+                            <input type="checkbox" id="item6">
+                            <label for="item6">Phone chargers and power bank</label>
+                        </div>
+                        <div class="checklist-item">
+                            <input type="checkbox" id="item7">
+                            <label for="item7">Camera for LEGO memories</label>
+                        </div>
+                        <div class="checklist-item">
+                            <input type="checkbox" id="item8">
+                            <label for="item8">Small first aid kit</label>
+                        </div>
+                        <div class="checklist-item">
+                            <input type="checkbox" id="item9">
+                            <label for="item9">Entertainment for flights</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="practical-card">
+                    <h3><i class="fas fa-plane"></i> Transportation</h3>
+                    <div class="transport-info">
+                        <div class="transport-item">
+                            <h4>Dublin → Amsterdam</h4>
+                            <p><strong>Airlines:</strong> Aer Lingus, KLM, Ryanair</p>
+                            <p><strong>Duration:</strong> 1 hour 40 minutes</p>
+                            <p><strong>Frequency:</strong> Multiple daily flights</p>
+                            <div class="transport-tip">
+                                <i class="fas fa-lightbulb"></i> Book early for better prices; Aer Lingus most convenient
+                            </div>
+                        </div>
+                        <div class="transport-item">
+                            <h4>LEGO House → Airport</h4>
+                            <p><strong>Taxi:</strong> 4-5 minutes, most convenient with luggage</p>
+                            <p><strong>Bus:</strong> Line 43, every 20 minutes, 8-13 minutes</p>
+                            <p><strong>Distance:</strong> 3-5km</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="practical-card">
+                    <h3><i class="fas fa-mobile-alt"></i> Useful Apps & Resources</h3>
+                    <div class="apps-list">
+                        <div class="app-item">
+                            <i class="fas fa-castle"></i> LEGOLAND Billund official app (wait times, maps, shows)
+                        </div>
+                        <div class="app-item">
+                            <i class="fas fa-calendar"></i> Lalandia 'What's On' calendar
+                        </div>
+                        <div class="app-item">
+                            <i class="fas fa-tree"></i> WOW PARK official website for hours
+                        </div>
+                        <div class="app-item">
+                            <i class="fas fa-language"></i> Google Translate for Danish
+                        </div>
+                        <div class="app-item">
+                            <i class="fas fa-cloud-sun"></i> Weather app for Denmark
+                        </div>
+                        <div class="app-item">
+                            <i class="fas fa-plane"></i> Aer Lingus app for flight updates
+                        </div>
+                    </div>
+                </div>
+
+                <div class="practical-card">
+                    <h3><i class="fas fa-euro-sign"></i> Budget Estimates</h3>
+                    <div class="budget-info">
+                        <div class="budget-section">
+                            <h4>Dining</h4>
+                            <div class="budget-item">
+                                <span>Casual meal</span>
+                                <span>€15-25 per person</span>
+                            </div>
+                            <div class="budget-item">
+                                <span>Restaurant meal</span>
+                                <span>€25-40 per person</span>
+                            </div>
+                            <div class="budget-item">
+                                <span>Kids meals</span>
+                                <span>€8-15</span>
+                            </div>
+                            <div class="budget-item">
+                                <span>Snacks</span>
+                                <span>€3-8</span>
+                            </div>
+                        </div>
+                        <div class="budget-section">
+                            <h4>Activities</h4>
+                            <div class="budget-item">
+                                <span>LEGOLAND tickets</span>
+                                <span>Included ✓</span>
+                            </div>
+                            <div class="budget-item">
+                                <span>Aquadome</span>
+                                <span>Included ✓</span>
+                            </div>
+                            <div class="budget-item">
+                                <span>WOW PARK</span>
+                                <span>€35-40 per person</span>
+                            </div>
+                            <div class="budget-item">
+                                <span>LEGO House</span>
+                                <span>€25-35 per person</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Billund Family Adventure 2025</h4>
+                    <p>Your complete guide to the ultimate Danish family vacation</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#itinerary">Itinerary</a></li>
+                        <li><a href="#attractions">Attractions</a></li>
+                        <li><a href="#dining">Dining</a></li>
+                        <li><a href="#practical">Practical Info</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Trip Details</h4>
+                    <p>August 22-26, 2025</p>
+                    <p>Billund, Denmark</p>
+                    <p>Family adventure for ages 8-11</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Billund Family Adventure. Have an amazing trip!</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

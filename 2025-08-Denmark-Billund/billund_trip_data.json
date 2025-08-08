@@ -1,0 +1,304 @@
+{
+  "trip_info": {
+    "destination": "Billund, Denmark",
+    "dates": "August 22-26, 2025",
+    "family": "Parents with children ages 11 and 8",
+    "accommodation": "Lalandia Billund",
+    "tickets": "2-day LEGOLAND tickets",
+    "flights": "Dublin \u2192 Amsterdam \u2192 Billund (return)"
+  },
+  "daily_itinerary": [
+    {
+      "day": "Day 1 - Thu, Aug 22",
+      "title": "Arrival & Lalandia Settlement",
+      "activities": [
+        {
+          "time": "Arrival",
+          "activity": "Check-in at Lalandia Billund",
+          "details": "Pick up wristbands for Aquadome and Monky Tonky Playland access",
+          "tips": "Drop bags early and explore Plaza activities"
+        },
+        {
+          "time": "Afternoon",
+          "activity": "Lalandia Plaza Activities",
+          "details": "Bowling, climbing wall, mini-golf, shuffleboard, Adventure Park",
+          "tips": "Perfect for 11 & 8-year-olds to burn energy after travel"
+        },
+        {
+          "time": "Evening",
+          "activity": "Aquadome Introduction",
+          "details": "Wave pool, slides, outdoor heated pool",
+          "tips": "Check Monky Tonky meet-and-greets on daily calendar"
+        }
+      ]
+    },
+    {
+      "day": "Day 2 - Fri, Aug 23",
+      "title": "LEGOLAND Day 1",
+      "activities": [
+        {
+          "time": "Rope Drop",
+          "activity": "Priority Rides",
+          "details": "The Dragon, X-treme Racers, Polar X-plorer, LEGO NINJAGO The Ride",
+          "tips": "Use official app for live wait times and height requirements"
+        },
+        {
+          "time": "Morning",
+          "activity": "Shows & Characters",
+          "details": "Stunt shows, pirate shows, character meet-and-greets",
+          "tips": "Check app schedule; great for both age groups"
+        },
+        {
+          "time": "Lunch",
+          "activity": "Early Lunch in Park",
+          "details": "Eat 11:15-11:45 to beat crowds",
+          "tips": "Multiple kid-friendly options throughout park"
+        },
+        {
+          "time": "Afternoon",
+          "activity": "Miniland & Family Rides",
+          "details": "Explore Danish landmarks, Vikings River Splash",
+          "tips": "Optional Aquadome break if kids need downtime"
+        }
+      ]
+    },
+    {
+      "day": "Day 3 - Sat, Aug 24",
+      "title": "LEGO House & Lalandia",
+      "activities": [
+        {
+          "time": "Morning",
+          "activity": "LEGO House Creative Zones",
+          "details": "Red Zone (creative builds), Blue Zone (vehicles), Green Zone (stop-motion)",
+          "tips": "Perfect for both 11 & 8-year-olds; roof terraces for energy release"
+        },
+        {
+          "time": "Lunch",
+          "activity": "Near LEGO House",
+          "details": "Scandinavian casual dining or Mini Chef robot restaurant",
+          "tips": "Mini Chef offers timed seating and unique experience"
+        },
+        {
+          "time": "Afternoon",
+          "activity": "Lalandia Activities",
+          "details": "Adventure Park, bowling, climbing wall for 11-year-old",
+          "tips": "Aquadome session to recharge after creative morning"
+        },
+        {
+          "time": "Evening",
+          "activity": "Monky Tonky Events",
+          "details": "Mini-disco, crafts, family activities",
+          "tips": "Check 'What's On' calendar for weekend specials"
+        }
+      ]
+    },
+    {
+      "day": "Day 4 - Sun, Aug 25",
+      "title": "LEGOLAND Day 2 or WOW PARK",
+      "activities": [
+        {
+          "time": "Option A",
+          "activity": "LEGOLAND Second Day",
+          "details": "Re-ride favorites, catch missed shows, LEGO Shop souvenirs",
+          "tips": "Shorter waits on Sunday; earn LEGO Insiders points"
+        },
+        {
+          "time": "Option B",
+          "activity": "WOW PARK Billund",
+          "details": "Forest nets, bridges, giant slides, nature play",
+          "tips": "Perfect for active 11 & 8-year-olds; open 10:00-17:00"
+        },
+        {
+          "time": "Either Option",
+          "activity": "Relaxed Evening",
+          "details": "Easy dinner at Lalandia, final Aquadome session",
+          "tips": "Wind down before departure day"
+        }
+      ]
+    },
+    {
+      "day": "Day 5 - Mon, Aug 26",
+      "title": "Departure via LEGO House",
+      "activities": [
+        {
+          "time": "10:00",
+          "activity": "Lalandia Checkout",
+          "details": "Standard checkout or paid late departure until 13:00",
+          "tips": "Consider late departure for relaxed morning (book day before)"
+        },
+        {
+          "time": "10:30-13:00",
+          "activity": "LEGO House Final Visit",
+          "details": "Focus on 1-2 zones, roof terraces, LEGO Store",
+          "tips": "Perfect pre-airport activity; only 3-5km to BLL"
+        },
+        {
+          "time": "Airport Transfer",
+          "activity": "LEGO House to Billund Airport",
+          "details": "Taxi: 4-5 minutes, Bus Line 43: 8-13 minutes",
+          "tips": "Compact airport; allow normal buffer for Amsterdam connection"
+        }
+      ]
+    }
+  ],
+  "attractions": [
+    {
+      "name": "LEGOLAND Billund",
+      "description": "Original LEGOLAND with 45+ rides and attractions",
+      "highlights": [
+        "The Dragon coaster",
+        "NINJAGO World",
+        "Miniland",
+        "Polar X-plorer"
+      ],
+      "age_suitability": "Perfect for ages 8-11",
+      "tips": "Use official app for wait times and show schedules"
+    },
+    {
+      "name": "Lalandia Aquadome",
+      "description": "Scandinavia's largest waterpark",
+      "highlights": [
+        "Turbo Drop slide",
+        "Wave pool",
+        "Outdoor heated pool",
+        "Kids Area"
+      ],
+      "age_suitability": "All ages with special kids areas",
+      "tips": "Included with accommodation; pack swimwear daily"
+    },
+    {
+      "name": "LEGO House",
+      "description": "Interactive LEGO experience and museum",
+      "highlights": [
+        "Creative zones",
+        "Roof terraces",
+        "Mini Chef restaurant",
+        "History exhibits"
+      ],
+      "age_suitability": "Excellent for creative 8-11 year olds",
+      "tips": "Great for departure day - close to airport"
+    },
+    {
+      "name": "WOW PARK Billund",
+      "description": "Outdoor forest adventure park",
+      "highlights": [
+        "Tree-top bridges",
+        "Giant slides",
+        "Nature challenges",
+        "Underground caves"
+      ],
+      "age_suitability": "Active adventure for ages 8-11",
+      "tips": "Weather dependent; open 10:00-17:00 in August"
+    }
+  ],
+  "dining": {
+    "danish_specialties": [
+      {
+        "dish": "Sm\u00f8rrebr\u00f8d",
+        "description": "Traditional open-faced sandwiches on rye bread",
+        "toppings": [
+          "Herring",
+          "Roast beef",
+          "Shrimp",
+          "Frikadeller"
+        ],
+        "where": "Grocery stores, bakeries, restaurants"
+      },
+      {
+        "dish": "Frikadeller",
+        "description": "Danish meatballs (pork and beef mixture)",
+        "served_with": [
+          "Boiled potatoes",
+          "Brown gravy",
+          "Red cabbage"
+        ],
+        "where": "Traditional restaurants, as sm\u00f8rrebr\u00f8d topping"
+      },
+      {
+        "dish": "Danish Pastries",
+        "description": "Flaky pastries and cakes",
+        "where": "Billund Bageri (since 1929), local bakeries"
+      }
+    ],
+    "restaurants": [
+      {
+        "name": "Mini Chef (LEGO House)",
+        "type": "Robot-served restaurant",
+        "cuisine": "European",
+        "family_friendly": "Excellent",
+        "price": "\u20ac\u20ac-\u20ac\u20ac\u20ac",
+        "special": "LEGO robots serve food - unique experience"
+      },
+      {
+        "name": "REFBORG Spiseri",
+        "type": "Modern Nordic",
+        "cuisine": "Scandinavian",
+        "family_friendly": "Good",
+        "price": "\u20ac\u20ac-\u20ac\u20ac\u20ac",
+        "special": "Local ingredients, seasonal menu"
+      },
+      {
+        "name": "Bellini Caf\u00e9 & Ristorante",
+        "type": "Italian",
+        "cuisine": "Pizza, Italian",
+        "family_friendly": "Excellent",
+        "price": "\u20ac\u20ac-\u20ac\u20ac\u20ac",
+        "special": "Great after LEGOLAND days"
+      },
+      {
+        "name": "Beach Club Food & Drinks (Lalandia)",
+        "type": "Casual dining",
+        "cuisine": "International",
+        "family_friendly": "Excellent",
+        "price": "\u20ac\u20ac",
+        "special": "Convenient location in resort"
+      }
+    ]
+  },
+  "practical_info": {
+    "packing_tips": [
+      "Swimwear for daily Aquadome sessions",
+      "Comfortable walking shoes",
+      "Light rain jacket (Denmark weather)",
+      "Compact daypack for parks",
+      "Water bottles and snacks"
+    ],
+    "transportation": {
+      "dublin_to_amsterdam": {
+        "airlines": [
+          "Aer Lingus",
+          "KLM",
+          "Ryanair"
+        ],
+        "duration": "1 hour 40 minutes",
+        "frequency": "Multiple daily flights",
+        "tips": "Book early for better prices; Aer Lingus most convenient"
+      },
+      "lego_house_to_airport": {
+        "taxi": "4-5 minutes, most convenient with luggage",
+        "bus": "Line 43, every 20 minutes, 8-13 minutes",
+        "distance": "3-5km"
+      }
+    },
+    "apps_and_resources": [
+      "LEGOLAND Billund official app (wait times, maps, shows)",
+      "Lalandia 'What's On' calendar",
+      "WOW PARK official website for hours",
+      "Google Translate for Danish"
+    ]
+  },
+  "budget_estimates": {
+    "dining": {
+      "casual_meal": "\u20ac15-25 per person",
+      "restaurant_meal": "\u20ac25-40 per person",
+      "kids_meals": "\u20ac8-15",
+      "snacks": "\u20ac3-8"
+    },
+    "activities": {
+      "legoland_tickets": "Included (2-day tickets purchased)",
+      "aquadome": "Included with Lalandia accommodation",
+      "wow_park": "\u20ac35-40 per person",
+      "lego_house": "\u20ac25-35 per person"
+    }
+  }
+}
